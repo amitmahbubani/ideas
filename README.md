@@ -4,53 +4,47 @@
 
 **Table of Contents**
 
--   [Introduction](#introduction)
--   [NoFollow Enforcer](nofollow.md) :hankey:
--   [PyPi Notifier](pypi-notifier.md) :rocket:
--   [OpenBook](#openbook) :hankey:
-    -   [Expectations](#expectations)
-    -   [Features](#features)
-    -   [Interface](#interface)
-    -   [Backend](#backend)
--   [iStalk](#istalk) :hankey:
-    -   [Idea](#idea)
-    -   [Interface](#interface-1)
--   [Distributed Privacy conscious TrueCaller Alternative](yellow-pages.md) :sparkles: :gift:
--   [Collaborative Bookmarking](#collaborative-bookmarking) :sparkles: :gift:
--   [Lightspeed for Chrome](#lightspeed-for-chrome) :rocket:
--   [Facebook Analytics](#facebook-analytics)
--   [API for Workflowy](#api-for-workflowy)
--   [Onion Cannon](onioncannon.md) (E2E encrypted communication for machines)
--   ~~[Lettersafe](#lettersafe) :hankey:~~
--   [Email on top of keybase](#email-on-top-of-keybase)
--   [Newsletters for GitHub](#newsletters-for-github) :rocket:
--   [Hacking via OAauth tokens](#hacking-via-oaauth-tokens) :rocket:
-    -   [But OAuth tokens can be revoked](#but-oauth-tokens-can-be-revoked)
-    -   [Procedure](#procedure)
--   [Pluggable Notify Daemon for linux](#pluggable-notify-daemon-for-linux)
--   [Telegram Channel to RSS](#telegram-to-rss) :gift: :sparkles:
--   [Disable Local Fonts Extension](#disable-local-fonts-extension) :gift:
--   [Community Browser Extension](communities-browser-extension.md) :gift:
--   [Card Game Modelling (Research)](card-game-modelling.md)
--   [Arch Linux Package Build System](#arch-linux-package-build-system)
--   [Hacker News Research Bot](#hacker-news-research-bot)
--   [Slack Dialer](#slack-dialer) :construction:
--   [Mars - Mars: Terraform Remote HTTP Backend with End-to-End encryption](mars.md)
--   [Tachiyomi Headless](#tachiyomi-headless) - Comic book scraper for all platforms
--   [OPML Generator](#opml-generator) :rocket:
--   [Bangalore Events List](#bangalore-events-list) :construction:
--   [Amazon Price Tracker with RSS](#amazon-price-tracker-with-rss) :rocket:
--   [OPML Sync](#opml-sync)
--   [Database Conversion Toolkit using an ORM](#database-conversion-toolkit-using-an-orm)
--   [Sanskari Proxy](#sanskari-proxy) :gift: :sparkles:
--   [Automated Personal Finance](#automated-personal-finance) :sparkles:
--   [UPI On Desktop](#upi-on-desktop) :sparkles:
--   [Helm Charts for Self-Hosting](#helm-charts-for-self-hosting)
--   [Fake Paytm Payment](#fake-payment-payment)
--   [CardDAV for Slack](#carddav-for-slack)
--   [Make your own adventure for Twitter](#twitter-adventure-maker)
--   [SVG to PNG on the Edge](#svg-to-png-on-the-edge)
--   [Licence](#licence)
+- [Introduction](#introduction)
+- [OpenBook](#openbook)
+- [OpenBook](#openbook-1)
+	- [Expectations](#expectations)
+	- [Features](#features)
+	- [Interface](#interface)
+	- [Backend](#backend)
+- [iStalk :hankey:](#istalk-hankey)
+	- [Idea](#idea)
+	- [Interface](#interface-1)
+- [Collaborative Bookmarking](#collaborative-bookmarking)
+- [Lightspeed for Chrome](#lightspeed-for-chrome)
+- [Facebook Analytics](#facebook-analytics)
+- [API for Workflowy](#api-for-workflowy)
+- [Lettersafe](#lettersafe)
+- [Email on top of keybase](#email-on-top-of-keybase)
+- [Newsletters for GitHub](#newsletters-for-github)
+- [Hacking via OAauth tokens](#hacking-via-oaauth-tokens)
+	- [But OAuth tokens can be revoked](#but-oauth-tokens-can-be-revoked)
+	- [Procedure](#procedure)
+- [Pluggable Notify Daemon for Linux](#pluggable-notify-daemon-for-linux)
+- [Telegram To RSS](#telegram-to-rss)
+- [Disable Local Fonts Extension](#disable-local-fonts-extension)
+- [Arch Linux Package Build System](#arch-linux-package-build-system)
+- [Hacker News Research Bot](#hacker-news-research-bot)
+- [Slack Dialer :gift: :construction:](#slack-dialer-gift-construction)
+- [Database Conversion Toolkit using an ORM](#database-conversion-toolkit-using-an-orm)
+- [Tachiyomi Headless](#tachiyomi-headless)
+- [OPML Generator](#opml-generator)
+- [Bangalore Events List](#bangalore-events-list)
+- [Amazon Price Tracker with RSS](#amazon-price-tracker-with-rss)
+- [OPML Sync](#opml-sync)
+- [Sanskari Proxy](#sanskari-proxy)
+- [Helm Charts for Self-Hosting](#helm-charts-for-selfhosting)
+- [Fake Paytm Payment](#fake-paytm-payment)
+- [Automated Personal Finance](#automated-personal-finance)
+- [CardDAV on Slack](#carddav-on-slack)
+- [UPI on Desktop](#upi-on-desktop)
+- [Twitter Adventure Maker](#twitter-adventure-maker)
+- [SVG to PNG on the Edge](#svg-to-png-on-the-edge)
+- [Licence](#licence)
 
 ## Introduction
 
@@ -344,7 +338,7 @@ sqlite to mysql and trying every solution in [this SO question](https://stackove
 
 There are some closed solutions to this, but would like a open-source solution that does this well.
 
-## Tachiyomi Headless
+# Tachiyomi Headless
 
 :gift:
 
@@ -378,7 +372,7 @@ comics:
     - https://manga-fox.com/one-piece
 ```
 
-## OPML Generator
+# OPML Generator
 
 :rocket:
 
@@ -403,7 +397,7 @@ What if one could generate a OPML feed for:
 
 Related: https://github.com/RSS-Bridge/rss-bridge (I have contributed a few bridges to this)
 
-## Bangalore Events List
+# Bangalore Events List
 
 :gift: :construction:
 
@@ -417,7 +411,7 @@ Domain name suggestions are welcome. Since blr doesn't have a TLD, I was conside
 
 Initial Work: https://github.com/captn3m0/gardencity.events There is also some work from @tallpants on this at <https://github.com/tallpants/meetup2ics/>
 
-## Amazon Price Tracker with RSS
+# Amazon Price Tracker with RSS
 
 :rocket:
 
@@ -435,7 +429,7 @@ fairly easily. Configuration options would include:
 
 (While the above is merged, this doesn't correctly work because it doesn't cache the information properly).
 
-## OPML Sync
+# OPML Sync
 
 Instead of forcing users to do manual imports of OPML feeds, let them
 auto-subscribe from feeds using a dynamically generated OPML feed. This is not
@@ -443,7 +437,7 @@ a product idea by itself, more of a extension idea for existing RSS Readers.
 
 See related discussion on the [tt-rss forums](https://discourse.tt-rss.org/t/subscribe-to-opml/1230).
 
-## Sanskari Proxy
+# Sanskari Proxy
 
 :gift: :sparkles:
 
@@ -459,14 +453,14 @@ the same result, proxied via our servers.
 This is not intended to be used for actual usage, just research purposes. Will help make the
 UIDAI (and other GoI) websites accessible to a much larger community.
 
-## Helm Charts for Self-Hosting
+# Helm Charts for Self-Hosting
 
 I self-host a lot of my services, and it would be great to take my existing services, and convert them
 to compatible Helm Charts that others can re-use. Basically: Helm Charts for Self-Hosting.
 
 The input for these would be the terraform code at https://git.captnemo.in/nemo/nebula
 
-## Fake Paytm Payment
+# Fake Paytm Payment
 
 A fake webapp that goes fullscreen and does the following:
 
@@ -480,7 +474,7 @@ Why: To demonstrate to Paytm that they need to educate their merchants better ab
 
 Update: There are already two such apps on the Play Store. However, they don't work any more since they were based on the old UI Scheme. See [@Oxyenyos's PR](https://github.com/captn3m0/ideas/pull/10) for some more details.
 
-## Automated Personal Finance
+# Automated Personal Finance
 
 :sparkles:
 
@@ -515,7 +509,7 @@ If I were to try it again, I'd ensure a few things:
 2.  Cross platform, but I'd priritize Mac if necessary.
 3.  Save all data in [plaintextaccount](https://plaintextaccounting.org) compatible files. This would let people use other tools on top of this.
 
-## CardDAV on Slack
+# CardDAV on Slack
 
 While Slack calls are great, they are not the same as a Contact Entry in your phonebook.
 Because with a phonebook entry, you can make outbound calls without having internet, and
@@ -538,7 +532,7 @@ from teams they've left.
 
 Another cool hack this enables is that for teams on Free Plans, which supports "Skype" field in your profile, but not Phone number, it allows you to use the "skype" field to build contact sync which converts the field to a mobile/telephone field as long as it is a valid telephone number.
 
-## UPI on Desktop
+# UPI on Desktop
 
 :sparkles:
 
@@ -580,7 +574,7 @@ A few more links on this: [[a](https://fransdejonge.com/2018/03/twitter-and-face
 
 ---
 
-## Licence
+# Licence
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Feel free to contribute via Pull Requests, or discuss ideas in Issues. Also feel free to use these ideas in making the Next Big Thing. I promise to send you a postcard if you ship one of these.
 
